@@ -75,7 +75,7 @@
     <section>
       <h2>추가 자료</h2>
       <p>
-        You can view the <a href="app-ads.txt" target="_blank">app-ads.txt file</a> here.
+        
       </p>
     </section>
   </div>
