@@ -23,7 +23,11 @@
       padding: 1.5rem;
       box-shadow: 0 0 10px rgba(0,0,0,0.1);
     }
-    h1, h2 {
+    h1 {
+      color: #fff;
+      margin-top: 0;
+    }
+    h2 {
       color: #333;
       margin-top: 0;
     }
