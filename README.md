@@ -1,3 +1,4 @@
+<!DOCTYPE html>
 <html lang="ko">
 <head>
   <meta charset="UTF-8" />
@@ -47,6 +48,10 @@
     a:hover {
       text-decoration: underline;
     }
+    .privacy-policy {
+      margin-top: 1rem;
+      text-align: right;
+    }
   </style>
 </head>
 <body>
@@ -62,6 +67,10 @@
         <li><strong>다모임:</strong> 우리동네 친구 만들기, 쉽고 편하게 사람들을 만나고 모아보세요!</li>
         <li><strong>오늘의 이슈:</strong> 오늘의 대한민국은? 이슈를 정리하고 알려줘요</li>
       </ul>
+      <!-- 개인정보 방침 링크 -->
+      <div class="privacy-policy">
+        <a href="https://yoonswonjoon.github.io/privacyPolicyt.txt" target="_blank">개인정보 방침</a>
+      </div>
     </section>
 
     <!-- 개발자 정보 섹션 -->
@@ -71,9 +80,10 @@
       <p>개발자2: <a href="mailto:doojuns@gmail.com">doojuns@gmail.com</a></p>
     </section>
 
-    <!-- 추가 자료 -->
+    <!-- 추가 자료 섹션 -->
     <section>
       <h2>추가 자료</h2>
+      <!-- 다른 자료가 있다면 여기에 추가 -->
     </section>
   </div>
   
@@ -82,4 +92,5 @@
   </footer>
 </body>
 </html>
+
 
