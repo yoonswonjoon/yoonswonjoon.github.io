@@ -2,8 +2,8 @@
 <!DOCTYPE html>
 <html lang="ko">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
   <title>VLM</title>
   <style>
     body {
@@ -27,10 +27,12 @@
     }
     h1, h2 {
       color: #333;
+      margin-top: 0;
     }
     ul {
       list-style: none;
       padding: 0;
+      margin: 0;
     }
     li {
       padding: 0.5rem 0;
@@ -57,26 +59,19 @@
       <ul>
         <li><strong>다모임:</strong> 우리동네 친구 만들기, 쉽고 편하게 사람들을 만나고 모아보세요!</li>
         <li><strong>오늘의 이슈:</strong> 오늘의 대한민국은? 이슈를 정리하고 알려줘요</li>
-        <!-- 필요한 만큼 앱 항목을 추가하세요 -->
       </ul>
     </section>
 
     <!-- 개발자 정보 섹션 -->
     <section>
       <h2>개발자 정보</h2>
-      <p>개발자1: <a href="mailto:developer@example.com">vlm.veritasia@gmail.com</a></p>
-      <p>개발자2: <a href="mailto:developer@example.com">doojuns@gmail.com</a></p>
-      <!-- 추가적인 연락처(전화번호, 주소 등)를 넣고 싶다면 아래 예시 참고 -->
-      <!-- <p>전화번호: -</p> -->
-      <!-- <p>주소: 성남시 어딘가</p> -->
+      <p>개발자1: <a href="mailto:vlm.veritasia@gmail.com">vlm.veritasia@gmail.com</a></p>
+      <p>개발자2: <a href="mailto:doojuns@gmail.com">doojuns@gmail.com</a></p>
     </section>
 
-    <!-- 참고자료 또는 추가 정보 섹션 -->
+    <!-- 추가 자료 -->
     <section>
       <h2>추가 자료</h2>
-      <p>
-        
-      </p>
     </section>
   </div>
   
@@ -85,3 +80,4 @@
   </footer>
 </body>
 </html>
+
