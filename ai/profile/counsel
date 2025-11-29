@@ -106,18 +106,27 @@
 
   <!-- Firebase JS SDK (v11 예시, 버전은 최신으로 바꿔도 됨) -->
   <script type="module">
-    import { initializeApp } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-app.js";
-    import { getFirestore, doc, getDoc } from "https://www.gstatic.com/firebasejs/11.0.0/firebase-firestore.js";
+    // Import the functions you need from the SDKs you need
+  import { initializeApp } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-app.js";
+  import { getAnalytics } from "https://www.gstatic.com/firebasejs/12.6.0/firebase-analytics.js";
+  // TODO: Add SDKs for Firebase products that you want to use
+  // https://firebase.google.com/docs/web/setup#available-libraries
 
-    // TODO: 네 프로젝트 설정으로 교체
-    const firebaseConfig = {
-      apiKey: "YOUR_API_KEY",
-      authDomain: "YOUR_PROJECT_ID.firebaseapp.com",
-      projectId: "YOUR_PROJECT_ID",
-      // ...
-    };
+  // Your web app's Firebase configuration
+  // For Firebase JS SDK v7.20.0 and later, measurementId is optional
+  const firebaseConfig = {
+    apiKey: "AIzaSyB5QlAypsF-xEspPjkD14DEfqKsIRQAc2Y",
+    authDomain: "trybob-db6d0.firebaseapp.com",
+    projectId: "trybob-db6d0",
+    storageBucket: "trybob-db6d0.firebasestorage.app",
+    messagingSenderId: "1064274282875",
+    appId: "1:1064274282875:web:8b3790473ae3e1836bd5de",
+    measurementId: "G-4LC9Z96K1D"
+  };
 
-    const app = initializeApp(firebaseConfig);
+  // Initialize Firebase
+  const app = initializeApp(firebaseConfig);
+  const analytics = getAnalytics(app);
     const db  = getFirestore(app);
 
     function getReportIdFromUrl() {
