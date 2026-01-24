@@ -8,10 +8,35 @@ description: "드디어 서비스를 정식 오픈하게 되었습니다."
 <html lang="ko">
 <head>
   <style>
-    /* ...기존 스타일... */
+    /* 1. 기본 테마 설정 (리스트 페이지와 동일하게 맞춤) */
+    :root{--bg:#fff;--fg:#111214;--muted:#6b7280;--primary:#ef5350;--card:#f6f7f9;--border:#e5e7eb;--link:#2563eb;--hover:#f3f4f6}
+    @media (prefers-color-scheme: dark){
+      :root{--bg:#0b0c0e;--fg:#e5e7eb;--muted:#9aa0aa;--primary:#ef5350;--card:#15181c;--border:#2a2f36;--link:#60a5fa;--hover:#1f2329}
+    }
+    
+    /* 2. 기본 레이아웃 */
+    html,body{background:var(--bg);color:var(--fg);margin:0;font:16px/1.6 system-ui,-apple-system,sans-serif}
+    .container{max-width:860px;margin:0 auto;padding:24px 18px 80px}
+    
+    /* 3. 타이포그래피 (제목, 본문 등) */
+    h1{font-size:24px; margin:0.5em 0;}
+    p{margin: 1em 0; line-height: 1.6;}
+    ul, ol{padding-left: 1.2em;}
+    li{margin: 0.5em 0;}
+    
+    /* 4. 꾸미기 요소 (날짜, 구분선 등) */
+    .meta{font-size:14px; color:var(--muted);}
+    .pill{display:inline-block; font-size:12px; font-weight:bold; color:var(--primary); background:rgba(239,83,80,0.1); padding:2px 8px; border-radius:4px; margin-bottom:8px;}
+    .separator{height:1px; background:var(--border); margin:24px 0;}
+    
+    /* 5. 뒤로가기 버튼 스타일 */
     .back-btn { 
-        display: inline-block; margin-bottom: 20px; color: var(--link); 
-        text-decoration: none; font-size: 15px; font-weight: 500;
+        display: inline-block; 
+        margin-bottom: 20px; 
+        color: var(--link); 
+        text-decoration: none; 
+        font-size: 15px; 
+        font-weight: 500;
     }
   </style>
 </head>
@@ -23,7 +48,7 @@ description: "드디어 서비스를 정식 오픈하게 되었습니다."
     <header>
       <div class="pill">공지</div>
       <h1>아이온유 서비스 정식 오픈 안내</h1>
-      <p class="meta"><time>2025년 9월 27일</time></p>
+      <p class="meta"><time>2026년 1월 24일</time></p>
       <div class="separator"></div>
     </header>
 
