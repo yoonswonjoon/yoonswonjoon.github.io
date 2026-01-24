@@ -43,20 +43,16 @@ layout: null
     <h1>공지사항</h1>
     
     <div class="notice-list">
-        
-        <a href="20250927_launch.html" class="notice-item">
-            <span class="notice-title">
-                <span class="badge-new">N</span>아이온유 서비스 정식 오픈 안내
-            </span>
-            <span class="notice-date">2025.09.27</span>
-        </a>
-
-        <a href="20251001_check.html" class="notice-item">
-            <span class="notice-title">10월 1일 서버 정기점검 안내</span>
-            <span class="notice-date">2025.10.01</span>
-        </a>
-
-    </div>
+  
+  {% for post in site.posts %}
+    <a href="{{ post.url }}" class="notice-item">
+        <span class="notice-title">
+            {{ post.title }}
+        </span>
+        <span class="notice-date">{{ post.date | date: "%Y.%m.%d" }}</span>
+    </a>
+  {% endfor %}
+  </div>
     </div>
 </body>
 </html>
