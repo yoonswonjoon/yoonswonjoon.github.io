@@ -1,0 +1,10 @@
+[{
+  "relation": ["delegate_permission/common.handle_all_urls"],
+  "target": {
+    "namespace": "android_app",
+    "package_name": "com.vlm.sosi",
+    "sha256_cert_fingerprints": [
+      "A1:3F:B0:50:A6:F9:54:77:E2:11:86:90:15:C2:97:B7:9F:45:2A:F4:65:37:03:8E:8D:04:C6:DF:9E:23:1B:6F"
+    ]
+  }
+}]
